@@ -1,12 +1,8 @@
 import Image from "next/image";
-import Head from "next/head";
 
 export default function Home() {
   return (
 	  <>
-		  <Head>
-			  <meta name="cryptomus" content="c7cbe90c"/>
-		  </Head>
 		  <main className="flex min-h-screen flex-col items-center justify-between p-24">
 			  <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
 				  <p
